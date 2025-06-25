@@ -294,7 +294,7 @@ def get_dataloaders(data, batch_size=32, num_splits=5, stratify=True):
     
     return dataloaders
 
-_, emotionclasses = load_data('IEMOCAP_dataset.csv')
+_, emotionclasses = load_data('/workspaces/SigWavNet-Learning/Data_exploration/EMO_DB_dataset.csv')
 
 
 def index_to_emotionclass(index):
